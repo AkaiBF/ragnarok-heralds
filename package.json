@@ -4,7 +4,8 @@
   "description": "Webpage back-end for Ragnarök Heralds' Warframe Guild.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "keywords": [
     "warframe",
@@ -12,5 +13,13 @@
     "guild"
   ],
   "author": "Ernesto Echeverría",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.14"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
 }
