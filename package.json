@@ -1,0 +1,16 @@
+{
+  "name": "ragnarok-heralds",
+  "version": "1.0.0",
+  "description": "Webpage back-end for Ragnarök Heralds' Warframe Guild.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "warframe",
+    "ragnarok-heralds",
+    "guild"
+  ],
+  "author": "Ernesto Echeverría",
+  "license": "ISC"
+}
